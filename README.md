@@ -4,7 +4,7 @@ TAG: Semantic Search Over Structured &amp; Unstructured Data
 
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/lets-build-a-real-estate-advisory-company-using-ai-agents-59d6e2bac78a
+Full Article : [https://medium.com/@learn-simplified/lotus-semantic-search-over-structured-unstructured-data-f24fed45af63
 
 Hands on with Declarative prog model & optimized query engine for serving powerful reasoning-based query pipelines over structured and unstructured data
 

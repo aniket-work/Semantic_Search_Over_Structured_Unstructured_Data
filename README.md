@@ -1,37 +1,29 @@
-# Semantic_Search_Over_Structured_Unstructured_Data
-TAG : Semantic Search Over Structured &amp; Unstructured Data
+# Semantic Search Over Structured Unstructured Data
+TAG: Semantic Search Over Structured &amp; Unstructured Data
 
-
-
-# Semantic_Search_Over_Structured_Unstructured_Data
-Let's Build Real Estate Advisor Company Using AI Agents
 
 ## Introduction
 
 Full Article : [https://medium.com/@learn-simplified/lets-build-a-real-estate-advisory-company-using-ai-agents-59d6e2bac78a
 
-Picture this: You're in the market for a new home, overwhelmed by endless listings and conflicting advice. What if there was a smart, tireless assistant who could sift through all that data and find your perfect match? That's exactly what I set out to create. In this article, I'll walk you through how I built an AI-powered real estate advisory system from the ground up. It's a journey that combines cutting-edge technology with the age-old dream of finding the ideal place to call home.
+Hands on with Declarative prog model & optimized query engine for serving powerful reasoning-based query pipelines over structured and unstructured data
 
 
 ## What's This Project About
 
-This article is a deep dive into creating an AI-powered real estate advisory system. I'll take you through the process of developing an intelligent agent that can understand complex property queries, extract key criteria, and provide tailored recommendations. We'll explore how to use language models to interpret natural language inputs, implement custom tools for filtering properties, and design a system that can handle the nuances of real estate searches. You'll see how we can combine various AI technologies to create a more interactive and personalized property search experience. Whether you're a tech enthusiast, a real estate professional, or just curious about the future of home buying, this article will give you insights into how AI is transforming the industry.
+This article breaks down the technical concepts of the research paper, "TAG: Semantic Search Over Structured & Unstructured Data", into simple language, making it accessible and exciting for readers unfamiliar with complex computer science.
+The paper presents an innovative search system, TAG, that uses AI to enhance semantic searches over various types of data. TAG's primary goal is to help users navigate massive datasets, whether they're structured (like databases) or unstructured (like articles or reports), by introducing AI-driven tools that can understand the meaning behind the data.
 
 ## Why Work on It?
 
-AI is rapidly changing the business landscape, and real estate is no exception. This article offers a practical example of how AI can be implemented in a traditional industry to create new value. By following along, you'll gain insights into:
- - How AI can process complex, natural language queries and turn them into actionable data
- - The process of building a custom AI agent tailored to a specific business need
- - Techniques for making AI systems more robust and error-resistant
- - The potential for AI to personalize and streamline customer experiences
-
-While our company is fictional, the techniques and technologies discussed are very real and applicable across many industries. This article will give you a concrete understanding of how AI can be leveraged to create smarter, more efficient business processes.
+Understanding how TAG works can give you insight into the future of data search. As businesses, researchers, and individuals handle more information than ever before, they face a significant challenge in making sense of it all. TAG solves this by leveraging AI for smarter searches that go beyond keywords and into the meaning of the content itself. 
+Whether you're involved in data science, research, or just want to know how future technology will improve information processing, this article explains why TAG is important and how it can impact a wide range of fields.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
 
 
-# Tutorial: How I Built Supply Chain Optimization Using AI Agents
+# Tutorial: Semantic Search Over Structured &amp; Unstructured Data
 
 ## Prerequisites
 - Python installed on your system.
@@ -75,11 +67,11 @@ Follow these steps to set up and run the 'Real Estate Advisory Company Using AI 
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Real Estate Advisory Company Using AI Agents
+## Run - Semantic Search Over Structured &amp; Unstructured Data
 
    ```bash 
-      # Run Real Estate Advisory Company Using AI Agents
-      python app.py
+      # Run Semantic Search Over Structured &amp; Unstructured Data
+      python main.py
       
    ```
 

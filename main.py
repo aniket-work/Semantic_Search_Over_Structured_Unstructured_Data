@@ -47,26 +47,30 @@ lotus.settings.configure(lm=lm, rm=rm, model_params={"temperature": 0.0, "max_to
 
 print(lotus.settings.keys())
 
-# create dataframes with course names and skills
-courses_data = {
+data = {
     "Course Name": [
-        "History of the Atlantic World",
-        "Riemannian Geometry",
-        "Operating Systems",
-        "Food Science",
+        "Probability and Random Processes",
+        "Optimization Methods in Engineering",
+        "Digital Design and Integrated Circuits",
+        "Computer Security",
+        "Operating Systems and Systems Programming",
         "Compilers",
-        "Intro to computer science",
+        "Computer Networks",
+        "Deep Learning",
+        "Graphics",
+        "Databases",
+        "Art History",
     ]
 }
-skills_data = {"Skill": ["Math", "Computer Science"]}
-courses_df = pd.DataFrame(courses_data)
-skills_df = pd.DataFrame(skills_data)
+df = pd.DataFrame(data)
+print(df)
 
-print(f"skills_data: {skills_data}  |  courses_df: {courses_df} | skills_df: {skills_df}")
+courses_w_math = df.sem_filter("{Course Name} requires a lot of math")
+print(f"courses requires a lot of math: {courses_w_math}")
 
-# lotus sem join
-res = courses_df.sem_join(skills_df, "Taking {Course Name} will help me learn {Skill}")
-print(res)
+
+
+
 
 
 
